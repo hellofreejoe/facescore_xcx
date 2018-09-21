@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas class="imageShowView" canvas-id="exampleImageCanvas"/>
+  <view class="faceAnalyzeResult">xxxxxxxxxxxx</view>
+  <view class="uploadBtnView">
+    <button open-type="getUserInfo" bindtap="uploadBtnTap"> 上传自己的照片 </button>
+  </view>
+</view>
